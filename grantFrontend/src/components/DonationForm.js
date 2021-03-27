@@ -108,6 +108,7 @@ export default class DonationForm extends Component {
         <form className="m-5 p-5" onSubmit={this.handleDonate}>
           <div className="form-group my-5">
             <label className="fw-bold fs-3 mb-2">Describe your donation</label>
+             <label className="fw-normal fs-2 mb-2">(Quantity:Thing1,Quantity:Thing2)</label>
             <input
               className="w-100 fs-3 border-0 border-bottom border-2 bg-light border-dark"
               type="text"
