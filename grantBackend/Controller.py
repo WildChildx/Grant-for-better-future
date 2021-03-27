@@ -11,7 +11,7 @@ import jwt
 
 app = Flask(__name__)
 CORS(app)
-jwtSecret = ""
+jwtSecret = "secret"
 
 
 @app.route("/donations", methods=["POST"])
