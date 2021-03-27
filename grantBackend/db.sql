@@ -1,5 +1,3 @@
-DROP USER bookshop@localhost;
-DROP DATABASE bookshop;
 CREATE DATABASE bookshop;
 CREATE USER 'bookshop'@'localhost' IDENTIFIED BY 'bookshop';
 GRANT ALL PRIVILEGES ON bookshop.* TO 'bookshop'@'localhost';
